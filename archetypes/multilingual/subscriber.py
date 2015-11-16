@@ -15,7 +15,7 @@ class LanguageIndependentModifier(object):
 
     stack = []
 
-    name = "LanguageIndependentModifier"
+    __name__ = "LanguageIndependentModifier"
 
     def __call__(self, content, event):
         """Called by the event system."""
