@@ -15,6 +15,8 @@ class LanguageIndependentModifier(object):
 
     stack = []
 
+    name = "LanguageIndependentModifier"
+
     def __call__(self, content, event):
         """Called by the event system."""
         if IArchetypesTranslatable.providedBy(content):
